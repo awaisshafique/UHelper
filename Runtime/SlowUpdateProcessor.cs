@@ -37,7 +37,7 @@ public class SlowUpdateProcessor
         float currentTime = GetCurrentTime();
 
         if (!(currentTime >= nextActionTime)) return;
-
+        
         action.Invoke();
         nextActionTime = currentTime + interval;
     }
