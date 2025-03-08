@@ -1,6 +1,6 @@
 {
   "name": "com.awaisshafique.uhelper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "UHelper",
   "description": "A collection of reusable utility scripts for Unity projects.",
   "unity": "2020.3",
