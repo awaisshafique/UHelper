@@ -1,0 +1,20 @@
+{
+  "name": "com.awaisshafique.uhelper",
+  "version": "1.0.0",
+  "displayName": "UHelper",
+  "description": "A collection of reusable utility scripts for Unity projects.",
+  "unity": "2020.3",
+  "author": {
+    "name": "Muhammad Awais Shafique",
+    "email": "awais.shafique71@outlook.com",
+    "url": "https://github.com/awaisshafique/UHelper"
+  },
+  "license": "MIT",
+  "keywords": [
+    "unity",
+    "utilities",
+    "helpers",
+    "package"
+  ],
+  "dependencies": {}
+}
