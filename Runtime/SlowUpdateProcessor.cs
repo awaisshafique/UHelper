@@ -40,9 +40,10 @@ namespace UHelper
             float currentTime = GetCurrentTime();
 
             if (!(currentTime >= nextActionTime)) return;
-
+        
             action.Invoke();
             nextActionTime = currentTime + interval;
+        
         }
 
         private float GetCurrentTime() => useUnscaledTime ? Time.unscaledTime : Time.time;
